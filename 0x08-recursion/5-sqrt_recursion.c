@@ -19,9 +19,9 @@ int _sqrt_recursion(int n)
  */
 int sqrt_aid(int n, int i)
 {
-	if (i *i > n)
+	if (i * i > n)
 		return (-1);
-	if (i *i == n)
+	if (i * i == n)
 		return (i);
 	return (sqrt_aid(n, i + 1));
 }
