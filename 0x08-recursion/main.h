@@ -10,3 +10,4 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int sqrt_aid(int n, int i);
 int is_prime_helper(int n, int i);
+int compare(char *s, int n1, int n2);
